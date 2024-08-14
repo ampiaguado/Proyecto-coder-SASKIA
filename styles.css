@@ -1,0 +1,104 @@
+*{margin: 0%;
+padding: 0%;
+font-family: "Inter", sans-serif;
+text-decoration: none;
+
+}
+
+.contenedor div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.contenedor1 {
+    width: 60%; 
+    display: flex;
+}
+.menubarra {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    list-style-type: none;
+}
+
+.menubarra li{
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.menubarra li a{
+    text-decoration: none;
+    color: black;
+}
+.menubarra li a:hover{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px);
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./multimedia/fondoInicio.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sesiones {
+    padding: 40px;
+    border-radius: 10px;
+}
+h1 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.IralShop {
+    margin-top: 10px;
+}
+
+#BotonShop {
+    background-color: rgb(224, 219, 219);
+    color: black;
+    padding: 10px 10px;
+    border: 2px solid black;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#BotonShop:hover {
+    background-color: #ccc; 
+    text-decoration: none;
+}
+/*
+
+footer{
+    padding: 40px;
+    margin: 90px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
