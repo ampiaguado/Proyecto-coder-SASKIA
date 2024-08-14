@@ -34,9 +34,10 @@
 
 .carousel-item img {
     width: 100%;
-    height: auto; /* Permite que la altura se ajuste automáticamente */
-    max-height: 500px; /* Limita la altura máxima del carrusel */
+    height: auto; 
+    max-height: 500px; 
     border-radius: 8px;
+    object-position: center;
 }
 
 /*
