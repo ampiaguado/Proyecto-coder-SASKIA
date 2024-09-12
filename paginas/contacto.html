@@ -4,28 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="stylesContacto.css">
+    <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
     <header class="contenedor">
-        <img class="logo" src="../multimedia/6.png" alt="logo">
+        <div class="header-menu">
+        <div class="logo">SASKIA</div>
+        <button id="hamburguesa-menu" class="menu-hamb">&#9776;</button>
         <nav class="contenedor1">
             <ul class="menubarra">
                 <li> <a href="../index.html">Inicio</a> </li>
-                <li> <a href="./sesion.html">Iniciar sesión</a> </li>
+                <li> <a href="./newin.html">New In</a> </li>
                 <li> <a href="./shop.html">Shop</a> </li>
-                <li> <a href="./contacto.html">Contacto</a> </li>
-        </ul>
+                <li> <a href="#">Contacto</a> </li>
+            </ul>
         </nav>
+    </div>
+
     </header>
+    <main>
+        <main class="main-etiquetas">
+            <section class="datos-personales">
+                <h2>Datos Personales</h2>
+                <form action="#" method="POST">
+                    <label for="nombre" class="label-text">Nombre:</label>
+                    <input type="text" id="nombre" class="input-field" name="nombre" placeholder="Nombre" required>
+        
+                    <label for="apellido" class="label-text">Apellido:</label>
+                    <input type="text" id="apellido" class="input-field" name="apellido" placeholder="Apellido" required>
+        
+                    <label for="mail" class="label-text">Correo Electrónico:</label>
+                    <input type="email" id="mail"  class="input-field"name="mail" placeholder="Ejemplo@gmail.com" required>
+        
+                    <label for="telefono" class="label-text">Número de Teléfono:</label>
+                    <input type="tel" id="telefono" class="input-field" name="telefono" placeholder="Teléfono" required>
+                </form>
+            </section>
+        
+            <section class="mapa">
+                <h2>Ubicación</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d183299.88478603316!2d-64.37430933312937!3d-31.387628892170273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432985f478f5b69%3A0xb0a24f9a5366b092!2sC%C3%B3rdoba%2C%20Argentina!5e0!3m2!1ses-419!2ses!4v1725639893483!5m2!1ses-419!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </main>
     
 
 
     <footer>
-        <a href="https://www.instagram.com/saskia.clth/" target="_blank"><img src="multimedia/png insta.png" alt="inst"> </a>
-        <img src="multimedia/png whatsapp.png" alt="what">
-        <img src="multimedia/png mail.png" alt="@">
-    </footer>
+        <div class="contenedor-footer">
+           <div class="imagenes-footer">
+            <a href="https://www.instagram.com/saskia.clth/" target="_blank"><img class="imagenes-footer-index" src="../multimedia/png insta.png" alt="inst" class="footer"></a>
+            <img class="imagenes-footer-index" src="../multimedia/png whatsapp.png" alt="wspp" class="footer">
+            <img class="imagenes-footer-index" src="../multimedia/png mail.png" alt="@" class="footer">
+           </div>
+        </div>
+     </footer>
 
 
 </body>
